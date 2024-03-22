@@ -1,0 +1,45 @@
+{
+  "name": "quaeratquis",
+  "version": "1.0.0",
+  "description": "Strongly-typed environment variables from .env & process.env",
+  "author": "OtiliaBoehm",
+  "license": "MIT",
+  "keywords": [
+    "nostrum",
+    "dotenv",
+    "dolore",
+    "error",
+    "harum",
+    "typescript"
+  ],
+  "homepage": "https://github.com/BrayanUpton/quaeratquis.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrayanUpton/quaeratquis.git"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "**/*.js",
+    "**/*.js.map",
+    "**/*.d.ts",
+    "!tests",
+    "!coverage",
+    "!jest.config.js"
+  ],
+  "scripts": {
+    "build": "tsc --build tsconfig.dist.json",
+    "clean": "rm -rf index.{js,js.map,d.ts} ./lib/*.{js,js.map,d.ts} ./tests/*.{js,js.map,d.ts}",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "coveralls": "^3.0.6",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2"
+  }
+}
